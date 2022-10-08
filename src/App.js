@@ -1,10 +1,11 @@
 import React from 'react'
-import UseStateBasics from "./UseStateBasics"
+import UseStateBasix from './UseStateBasix'
 
 const App = () => {
   return (
     <div>
-      <UseStateBasics/>
+     
+      <UseStateBasix/>
     </div>
   )
 }

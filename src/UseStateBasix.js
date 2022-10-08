@@ -3,7 +3,7 @@ import React from 'react'
 const UseStateBasix = () => {
     const [text, setTest] = React.useState("random title")
     function handleClick(){
-        setTest(prevState === "random title" ? "myTitle")
+        setTest(text === "random title" ? "myTitle" :"random title");
     }
   return (
     <div>
